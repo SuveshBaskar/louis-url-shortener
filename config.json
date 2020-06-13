@@ -1,0 +1,11 @@
+{
+    "MONGO":{
+        "MONGO_URI": "mongodb://localhost:27018"
+    },
+    "URL":{
+        "APP": "http://localhost:8989"
+    },
+    "APP":{
+        "PORT": 8989
+    }
+}
