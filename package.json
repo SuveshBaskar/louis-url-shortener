@@ -1,12 +1,13 @@
 {
   "name": "louis",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A Test App",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git cz",
-    "release": "standard-version"
+    "release": "standard-version",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "husky": {
     "hooks": {
@@ -20,8 +21,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.9.18",
     "shortid": "^2.2.15",
-    "valid-url": "^1.0.9",
-    "validate-commit-msg": "^2.14.0"
+    "valid-url": "^1.0.9"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
