@@ -1,11 +1,12 @@
 {
   "name": "louis",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A Test App",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "git cz"
+    "commit": "git cz",
+    "release": "standard-version"
   },
   "husky": {
     "hooks": {
@@ -26,7 +27,8 @@
     "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^9.1.1",
     "cz-conventional-changelog": "^3.2.0",
-    "husky": "^4.2.5"
+    "husky": "^4.2.5",
+    "standard-version": "^8.0.2"
   },
   "config": {
     "commitizen": {
