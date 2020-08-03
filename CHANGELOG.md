@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.8](https://github.com/SuveshBaskar/louis-url-shortener/compare/v2.0.7...v2.0.8) (2020-08-03)
+
+
+### Bug Fixes
+
+* **app.js:** bug Fix ([fe18ca6](https://github.com/SuveshBaskar/louis-url-shortener/commit/fe18ca65e2c34b381c5abbf86edfaad0c924938d))
+
 ### [2.0.7](https://github.com/SuveshBaskar/louis-url-shortener/compare/v2.0.7-alpha.1...v2.0.7) (2020-08-03)
 
 ### [2.0.7-alpha.1](https://github.com/SuveshBaskar/louis-url-shortener/compare/v2.0.7-alpha.0...v2.0.7-alpha.1) (2020-08-03)
