@@ -2,5 +2,6 @@
     "001": "Invalid URL",
     "002": "Internal Error",
     "003": "URL not found",
-    "004": "URL not found but not reachable"
+    "004": "URL not found",
+    "005": "URL not found but not reachable"
 }
