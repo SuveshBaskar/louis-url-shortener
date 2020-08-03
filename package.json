@@ -1,10 +1,11 @@
 {
   "name": "louis",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Test App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,13 @@
     "mongoose": "^5.9.18",
     "shortid": "^2.2.15",
     "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
