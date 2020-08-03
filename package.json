@@ -1,6 +1,6 @@
 {
   "name": "louis",
-  "version": "2.0.7-alpha.1",
+  "version": "2.0.7",
   "description": "A Test App",
   "main": "index.js",
   "scripts": {
